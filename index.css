@@ -9,8 +9,9 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-  list-style: none;
 }
+
+/* header */
 
 header {
   display: flex;
@@ -23,9 +24,15 @@ nav > ul  {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  list-style: none;
 }
 
-.btn-switch-language {
+.header__drop-downs {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__drop-down--switch-lang {
   display: flex;
   flex-direction: row;
 }
