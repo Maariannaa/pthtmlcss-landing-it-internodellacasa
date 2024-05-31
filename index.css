@@ -30,6 +30,10 @@ ul  {
   list-style: none;
 }
 
+section {
+  min-height: 100vh;
+}
+
 .header__drop-downs {
   display: flex;
   flex-direction: row;
