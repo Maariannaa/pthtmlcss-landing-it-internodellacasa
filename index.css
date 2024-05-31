@@ -9,4 +9,23 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > ul  {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.btn-switch-language {
+  display: flex;
+  flex-direction: row;
 }
