@@ -24,6 +24,9 @@ nav > ul  {
   display: flex;
   flex-direction: row;
   gap: 2rem;
+}
+
+ul  {
   list-style: none;
 }
 
@@ -35,4 +38,24 @@ nav > ul  {
 .header__drop-down--switch-lang {
   display: flex;
   flex-direction: row;
+}
+
+.footer__footer--bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.footer__footer--top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
