@@ -63,3 +63,24 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__contact--form {
+  background-image: url(/images/map.png);
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__contact--img {
+  width: 40%;
+  height: 912px;
+}
+
+
