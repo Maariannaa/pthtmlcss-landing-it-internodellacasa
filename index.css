@@ -87,3 +87,20 @@ section {
   width: 40%;
   height: 912px;
 }
+
+#feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__feedback--title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback__feedback--cards {
+  display: flex;
+  flex-direction: row;
+}
