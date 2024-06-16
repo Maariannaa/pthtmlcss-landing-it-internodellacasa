@@ -3,6 +3,7 @@
 	--custom-color-black: #000000;
 	--custom-color-red: #CD2B38;
 	--custom-color-green: #009246;
+  --custom-color-yellow: #DEB142;
 }
 
 * {
@@ -39,6 +40,23 @@ section {
   min-height: 100vh;
 }
 
+/* common */
+
+.common__button {
+  background-color: var(--custom-color-yellow);
+  border: none;
+  height: 42px;
+  color: var(--custom-color-white);
+  text-transform: capitalize;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* header */
+
 .header__drop-downs {
   display: flex;
   flex-direction: row;
@@ -48,6 +66,8 @@ section {
   display: flex;
   flex-direction: row;
 }
+
+/* footer */
 
 .footer__footer--bottom {
   display: flex;
@@ -69,6 +89,8 @@ section {
   align-items: center;
 }
 
+/* contact */
+
 #contact {
   display: flex;
   flex-direction: row;
@@ -87,6 +109,8 @@ section {
   width: 40%;
   height: 912px;
 }
+
+/* feedback */
 
 #feedback {
   display: flex;
