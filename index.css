@@ -67,6 +67,21 @@ section {
   flex-direction: row;
 }
 
+/* home */
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+
 /* footer */
 
 .footer__footer--bottom {
