@@ -149,6 +149,28 @@ section {
   flex-direction: column;
 }
 
+/* shop */
+
+#shop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.shop__shop-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.shop__shop--cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 /* footer */
 
 .footer__footer--bottom {
