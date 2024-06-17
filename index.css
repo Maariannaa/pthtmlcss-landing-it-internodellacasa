@@ -105,6 +105,29 @@ section {
   gap: 1rem;
 }
 
+/* our-projects */
+
+#our-projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+.our-projects__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.our-projects__images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* footer */
 
 .footer__footer--bottom {
