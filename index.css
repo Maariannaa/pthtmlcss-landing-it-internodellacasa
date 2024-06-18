@@ -171,6 +171,50 @@ section {
   justify-content: flex-end;
 }
 
+/* explore-work */
+
+#explore-work {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.explore-work__explore-work-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.explore-work__explore-work--image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* feedback */
+
+#feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.feedback__feedback-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.feedback__feedback--cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 /* footer */
 
 .footer__footer--bottom {
